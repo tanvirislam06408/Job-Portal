@@ -10,7 +10,7 @@ const SignIn = () => {
   const location = useLocation();
   
   const from = location.state || '/';
-  console.log(from);
+  
   
   const navigate = useNavigate();
   
